@@ -268,37 +268,37 @@ namespace Laba_4_array
         {
             try//Начало отслеживания ошибок
             {
-                int maxIndex = 0, minIndex = 0, countMax=0, countMin=0;//индексы минимальных и максимальных значений списка
+                int maxIndex = 0, minIndex = 0, countMax=0, countMin=0;//индексы минимальных, максимальных и счётчиков значений списка
                 for (int i = 0; i < list.Length; i++)//Перебор элементов списка
                 {
                     if (list[i] >= list[maxIndex])//Проверка на максимальный элемент
                     {
-                        if (list[i] == list[maxIndex])//Проверка на максимальный элемент
+                        if (list[i] == list[maxIndex])//Проверка на  равенство максимальному элемент
                         {
-                            countMax++;//присваиваем новый индекс
+                            countMax++;/
                         }
                         else
                         {
                             maxIndex = i;
                             countMax = 1;
-                        }//присваиваем новый индекс
+                        }
                     }
                     if (list[i] <= list[minIndex])//Проверка на минимальный элемент
                     {
-                        if (list[i] == list[minIndex])//Проверка на максимальный элемент
+                        if (list[i] == list[minIndex])//Проверка на равенство минимальному элементу
                         {
-                            countMin++;//присваиваем новый индекс
+                            countMin++;
                         }
                         else
                         {
                             minIndex = i;
                             countMin = 1;
-                        }//присваиваем новый индекс
+                        }
                     }
                 }
                 int maxElement = list[maxIndex];
                 int minElement = list[minIndex];
-                if (countMax == countMin)
+                if (countMax == countMin)//Кол-во мин и макс элементов равны, то просто перезаписываем их
                 {
                     for (int i = 0; i < list.Length; i++)
                     {
@@ -316,7 +316,7 @@ namespace Laba_4_array
                 }
                 else
                 {
-                    (list[maxIndex], list[minIndex]) = (list[minIndex], list[maxIndex]);//Меняем элементы местами индексы
+                    (list[maxIndex], list[minIndex]) = (list[minIndex], list[maxIndex]);//Меняем элементы местами(Первые входы)
                 }
                 Console.WriteLine("Учтите смена элементов выполнена согласно следующим правилам:\nЕсли кол-во мин и макс элементов равны, то они все меняются местами\nЕсли не равны то меняются только первый мин и первый макс");
                 ViewList(list);//Выводим список для наглядности
