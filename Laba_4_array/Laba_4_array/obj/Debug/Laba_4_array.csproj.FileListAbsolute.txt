@@ -1,0 +1,7 @@
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\bin\Debug\Laba_4_array.exe.config
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\bin\Debug\Laba_4_array.exe
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\bin\Debug\Laba_4_array.pdb
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\obj\Debug\Laba_4_array.csproj.AssemblyReference.cache
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\obj\Debug\Laba_4_array.csproj.CoreCompileInputs.cache
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\obj\Debug\Laba_4_array.exe
+D:\Вадик\Обучение\ВШЭ_Пермь\Програмирование\Лаба_4\Код\Laba_4_array\Laba_4_array\obj\Debug\Laba_4_array.pdb
